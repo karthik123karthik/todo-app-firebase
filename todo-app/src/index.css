@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.task-list{
+  display: flex;
+  flex-direction:column;
+  list-style-type: none;
+  text-align: center;
+  margin: 20px auto;
+  font-size: larger;
+  padding: 23px;
+  line-height: 3em;
+  text-decoration: darkgreen;
+}
